@@ -1,5 +1,5 @@
 # Osintgram🔎📸
-instahacked is a **OSINT** tool on Instagram to collect, analyze, and run reconnaissance.
+Osintgram is a **OSINT** tool on Instagram to collect, analyze, and run reconnaissance.
 
 
 Disclaimer: **FOR EDUCATIONAL PURPOSE ONLY! The contributors do not assume any responsibility for the use of this tool.**
@@ -8,7 +8,7 @@ Warning: It is advisable to **not** use your own/primary account when using this
 
 ## Tools and Commands 🧰
 
-instahacked offers an interactive shell to perform analysis on Instagram account of any users by its nickname. You can get:
+Noisytech13 offers an interactive shell to perform analysis on Instagram account of any users by its nickname. You can get:
 
 ```text
 - addrs           Get all registered addressed by target photos
