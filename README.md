@@ -37,11 +37,11 @@ instahacked offers an interactive shell to perform analysis on Instagram account
 
 1. Fork/Clone/Download this repo
 
-    `git clone https://github.com/noisytech13/instahacked.git`
+    `git clone https://github.com/noisytech13/Osintgram.git`
 
 2. Navigate to the directory
 
-    `cd instahacked`
+    `cd Osintgram`
 
 3. Create a virtual environment for this project
 
@@ -83,13 +83,13 @@ If docker is installed you can build an image and run this as a container.
 Build:
 
 ```bash
-docker build -t instahacked .
+docker build -t Osintgram .
 ```
 
 Run:
 
 ```bash
-docker run --rm -it -v "$PWD/output:/home/instahacked/output" instahacked <target>
+docker run --rm -it -v "$PWD/output:/home/Osintgram/output" Osintgram <target>
 ```
 
 - The `<target>` is the Instagram account you wish to use as your target for recon.
@@ -103,7 +103,7 @@ docker run --rm -it -v "$PWD/output:/home/instahacked/output" instahacked <targe
 You can use the `docker-compose.yml` file this single command:
 
 ```bash
-docker-compose run instahacked <target>
+docker-compose run Osintgram <target>
 ```
 
 Where `target` is the Instagram target for recon.
@@ -116,7 +116,7 @@ Alternatively you may run `docker-compose` with the `Makefile`:
 
 For ease of use with Docker-compose, a `Makefile` has been provided.
 
-Here is a sample work flow to spin up a container and run `instahacked` with just two commands!
+Here is a sample work flow to spin up a container and run `Osintgram` with just two commands!
 
 1. `make setup`   - Sets up your Instagram credentials
 2. `make run`     - Builds and Runs a instahacked container and prompts for a target
